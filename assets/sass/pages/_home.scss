@@ -1,0 +1,61 @@
+* {
+    text-align: center;
+}
+body {
+    background-image: url("../../img/fond.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: $colour-title;
+}
+
+.scorePlayer1 {
+    color: $colour-Player1;
+}
+.player1 {
+    background-color: $colour-Player1;
+    color: $colour-white;
+}
+.scorePlayer2 {
+    color: $colour-Player2;
+}
+.player2 {
+    background-color: $colour-Player2;
+    color: $colour-white;
+}
+.scoreTotal{
+    color: $colour-reset;
+}
+.reset {
+    background-color: $colour-reset;
+    color: $colour-white;
+}
+.player1, .player2, .number, .reset {
+    border-radius: 15%;
+    cursor: pointer;
+}
+@include for-phone-portrait {
+    * {
+        font-size: 1rem;
+    }
+}
+@include for-phone-paysage-and-tablet-portrait {
+    * {
+        font-size: 1.25rem;
+    }
+}
+
+@include for-tablet-portrait {
+    * {
+        font-size: 1.5rem;
+    }
+}
+
+@include for-desktop {
+    * {
+        font-size: 1.75rem;
+    }
+
+}

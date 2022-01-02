@@ -1,0 +1,70 @@
+* {
+  text-align: center;
+}
+
+body {
+  background-image: url("../../img/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: darkslategrey;
+}
+
+.scorePlayer1 {
+  color: darkblue;
+}
+
+.player1 {
+  background-color: darkblue;
+  color: white;
+}
+
+.scorePlayer2 {
+  color: green;
+}
+
+.player2 {
+  background-color: green;
+  color: white;
+}
+
+.scoreTotal {
+  color: brown;
+}
+
+.reset {
+  background-color: brown;
+  color: white;
+}
+
+.player1, .player2, .number, .reset {
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  * {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 481px) {
+  * {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 769px) {
+  * {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  * {
+    font-size: 1.75rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

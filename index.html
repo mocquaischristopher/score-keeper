@@ -25,6 +25,23 @@
 <body>
 
   <!-- Add your site or application content here -->
+  <h1>Score Keeper</h1>  
+  <section class="score">
+    <p>Player 1: <span class="scorePlayer1"></span> to Player2: <span class="scorePlayer2"></span></p>
+    <p>Playing to: <span class="scoreTotal"></span></p>
+  </section> 
+  <hr>
+  <section class="buttons">
+    <p>veuillez choisir un nombre de départ :</p>
+    <input type="number" class="number" min="0" max="10" value="0">
+    <button class="player1">Player1</button>
+    <button class="player2">Player2</button>
+    <button class="reset">Reset</button>
+  </section>
+  <section class="winner">
+    <p><span class="win"></span>  win</p>
+  </section>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
